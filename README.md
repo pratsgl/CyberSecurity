@@ -3,6 +3,14 @@
 ## Overview
 ![image](https://github.com/user-attachments/assets/045d4e88-566b-4474-864c-b36bfbc7d45e)
 
+**Use of LangChain and Ollama:** Integrates a local LLM model (mistral via ChatOllama) with prompt templating—great for local/private environments.
+
+**Well-scoped SQL Prompt:** Clear instructions for translating natural language into SQL with safety hints like filtering on published_date and mapping risk levels.
+
+**CLI & Web Dual Interface:** Makes the tool accessible via terminal or browser—a versatile user experience.
+
+**CSV/JSON Export:** Practical output formats for further analysis.
+
 This Python application combines the power of LangChain with a local Ollama LLM to translate natural language questions about CVE (Common Vulnerabilities and Exposures) into SQL queries. It then executes those queries against a MySQL database, returns the results, and presents them via CLI or web frontend.
 
 ---
