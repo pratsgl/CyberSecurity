@@ -1,0 +1,13 @@
+# Docker Build & Push Instructions
+
+# 1. Build the Docker image
+docker build -t your-dockerhub-username/cve-assistant:latest .
+
+# 2. Push the image to Docker Hub
+docker push your-dockerhub-username/cve-assistant:latest
+
+# 3. Deploy on Kubernetes
+kubectl apply -f mysql-secret.yaml
+kubectl apply -f cve-assistant-deployment.yaml
+
+# Make sure MySQL is already running and accessible as `mysql-service`
