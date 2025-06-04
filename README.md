@@ -1,6 +1,7 @@
 # Ollama CVE Query Assistant
 
 ## Overview
+![image](https://github.com/user-attachments/assets/045d4e88-566b-4474-864c-b36bfbc7d45e)
 
 This Python application combines the power of LangChain with a local Ollama LLM to translate natural language questions about CVE (Common Vulnerabilities and Exposures) into SQL queries. It then executes those queries against a MySQL database, returns the results, and presents them via CLI or web frontend.
 
